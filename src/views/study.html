@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- lang é um atributo -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffy | Your Online Study Platform</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/header.css">
+    <link rel="stylesheet" href="/styles/partials/page-study.css">
+    <link rel="stylesheet" href="/styles/partials/forms.css">
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+
+</head>
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                <img src="/images/icons/back.svg" alt="Back">
+                </a>
+                <img src="/images/logo.svg" alt="Proffy">
+
+            </div>
+
+            <div class="header-content">
+                <strong>These are the available Proffys</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Subject</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="">Select an option</option>
+                            <option value="1">Art</option>
+                            <option value="2">Biology</option>
+                            <option value="3">Science</option>
+                            <option value="4">Gym</option>
+                            <option value="5">Physics</option>
+                            <option value="6">Geography</option>
+                            <option value="7">History</option>
+                            <option value="8">Math</option>
+                            <option value="9">English</option>
+                            <option value="10">Chemistry</option>
+                        </select>
+                    </div>
+
+                    <div class="select-block">
+                        <label for="weekday">Weekday</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Select an option</option>
+                            <option value="1">Sunday</option>
+                            <option value="2">Monday</option>
+                            <option value="3">Tuesday</option>
+                            <option value="4">Wednesday</option>
+                            <option value="5">Thursday</option>
+                            <option value="6">Friday</option>
+                            <option value="7">Saturday</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="time">Hour</label>
+                        <input name="time" id="time" type="time">
+                    </div>
+                    <button type="submit">Filter</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4" alt="Diego Fernandes">
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Chemistry</span>
+                    </div>
+                </header>
+                <p>Enthusiast of the best Advanced Chemistry Technologies.<br><br>Affictioned about exploding stuff in lab and changing people's lives through experiments. Over 200,000 people have already witnessed at least one of my explosions.</p>
+                <footer>
+                    <p>Price/hour<strong>$20.00</strong>
+                    </p>
+                    <button type="button"> 
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Contact
+                    </button>
+                </footer>
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4" alt="Diego Fernandes">
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Chemistry</span>
+                    </div>
+                </header>
+                <p>Enthusiast of the best Advanced Chemistry Technologies.<br><br>Affictioned about exploding stuff in lab and changing people's lives through experiments. Over 200,000 people have already witnessed at least one of my explosions.</p>
+                <footer>
+                    <p>Price/hour<strong>$20.00</strong>
+                    </p>
+                    <button type="button"> 
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Contact
+                    </button>
+                </footer>
+            </article>
+        </main>
+
+    </div>
+</body>
+</html>
